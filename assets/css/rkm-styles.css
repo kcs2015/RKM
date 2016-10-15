@@ -1,0 +1,17 @@
+/* RKM Styles */
+
+/* MAIN STYLES */
+html{
+    font-size: 16px;
+    
+}
+
+section {
+    
+    text-align:center;
+    margin: 1.25rem 0;
+}
+
+#cover-main{
+    margin:0;
+}
