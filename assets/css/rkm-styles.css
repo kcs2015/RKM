@@ -17,9 +17,20 @@ section {
 #cover-main{
     margin:0;
 }
-
+/* TECHNOLOGY SECTION */
+.section-background{
+   background: rgba(0,0,0,0.8);
+    
+}
+#technology{
+    background: url('../images/AdobeStock_81160853_WM.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover
+    
+}
 .tech-content{
     padding: 0 1.5rem;
+    background: rgba(0,0,0,0.5);
 }
 
 .tech-logo-content, .tech-logo-header{
@@ -29,4 +40,15 @@ section {
 .logo-img{
     height: 140px;
     width: 140px;
+}
+
+/* PORTFOLIO STYLES */
+.portfolio-content{
+    width:100%;
+   min-height: 20.5rem;
+    background-color: lightgray;    
+}
+.portfolio-column{   
+    margin-left: 0px;
+    margin-right: 0px;
 }
