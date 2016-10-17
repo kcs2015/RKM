@@ -17,20 +17,21 @@ section {
 #cover-main{
     margin:0;
 }
-/* TECHNOLOGY SECTION */
-.section-background{
-   background: rgba(0,0,0,0.8);
+/* TECHNOLOGY STYLES */
+.technology-header{
+   color:white;
     
 }
 #technology{
-    background: url('../images/AdobeStock_81160853_WM.jpeg') no-repeat;
-    background-position: center;
-    background-size: cover
+    background: url('../images/AdobeStock_85480562_WM.jpeg') center center no-repeat;
+    background-size: cover;
+    color: white;
     
 }
 .tech-content{
     padding: 0 1.5rem;
     background: rgba(0,0,0,0.5);
+    color:white;
 }
 
 .tech-logo-content, .tech-logo-header{
@@ -43,6 +44,16 @@ section {
 }
 
 /* PORTFOLIO STYLES */
+#portfolio-main{
+    /*background-color: wheat;
+    background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px; */
+}
 .portfolio-content{
     width:100%;
    min-height: 20.5rem;
@@ -51,4 +62,16 @@ section {
 .portfolio-column{   
     margin-left: 0px;
     margin-right: 0px;
+}
+
+/* CONTACT STYLES */
+#contact-main .section-content{
+    background: url('../images/AdobeStock_77134191_WM.jpeg') center center no-repeat;
+    background-size:cover;
+    color: white
+}
+
+.trans-content-background{
+    
+    
 }
