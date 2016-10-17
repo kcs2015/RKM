@@ -34,13 +34,19 @@
   </div>
 </nav>
       <section id="cover-main">
-           <div class="section-content">
-               <div class="jumbotron jumbotron-fluid">
-              <div class="container">
-                <h1 class="display-3">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-              </div>
-            </div>
+           <div class="section-content" data-type="background" data-speed="5">
+               <div class="jumbotron jumbotron-fluid"> <br> <br> <br> <br> <br> <br> <br>
+                        <div class="container">
+                        <div class="row trans-content-background">
+                          
+                            <h1 class="display-3">When Your Website Has To Be Great!</h1>
+                        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.
+                            </p>
+                        </div>
+                        
+
+                   </div>
+             </div>
 
            </div> <!-- section-content -->
       </section>
@@ -105,7 +111,7 @@
          </div>  <!-- section-content -->
                    
       </section>
-      <section id="technology">
+      <section id="technology" data-type="background" data-speed="3">
             <div class="section-content">
                  <div class="container-fluid">
                      <h1 class="section-header technology-header">Technology<br><small>Where We Shine</small></h1>
@@ -234,7 +240,7 @@
               <div class="container">
                        <div class="row trans-content-background">
                         
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia eum voluptatibus, sunt officia id dignissimos architecto in laboriosam vitae cumque blanditiis repellat amet sed magnam vero quae, eos libero autem.</p>
+                      <p id="contact-us-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia eum voluptatibus, sunt officia id dignissimos architecto in laboriosam vitae cumque blanditiis repellat amet sed magnam vero quae, eos libero autem.</p>
                       
                       <form>
                         <div class="form-group row">
@@ -244,6 +250,14 @@
                           </div>
                         </div>
                              <div class="form-group row">
+                            <label for="telephone" class="col-xs-2 col-form-label offset-xs-2">Telephone:</label>
+                            <div class="col-xs-6">
+                            <input type="tel" class="form-control" id="telephone" aria-describedby="emailHelp" placeholder="Example : 1-(555)-555-5555">
+                               
+                            </div>
+                           
+                          </div>
+                          <div class="form-group row">
                             <label for="emailAddress" class="col-xs-2 col-form-label offset-xs-2">Email address:</label>
                             <div class="col-xs-6">
                             <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter your email address">
@@ -323,5 +337,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js" ></script>
   </body>
 </html>
