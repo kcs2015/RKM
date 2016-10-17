@@ -7,11 +7,26 @@ html{
 }
 
 section {
-    
-    text-align:center;
     margin: 1.25rem 0;
+}
+
+.section-header{
+    text-align: center;
 }
 
 #cover-main{
     margin:0;
+}
+
+.tech-content{
+    padding: 0 1.5rem;
+}
+
+.tech-logo-content, .tech-logo-header{
+    text-align: center;
+}
+
+.logo-img{
+    height: 140px;
+    width: 140px;
 }
