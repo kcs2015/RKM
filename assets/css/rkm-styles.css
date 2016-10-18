@@ -36,30 +36,27 @@ section {
 
 
 #cover-main{
-    margin:0;
-     background: url(../images/AdobeStock_75860096_WM.jpeg) 100% -100px no-repeat fixed;
+    background: url(../images/AdobeStock_75860096_WM.jpeg) 100% -100px no-repeat fixed;
     background-size: cover;
-    height: 100%;
-    min-height: 600px;
+    height: 600px;
     color: white;
 }
 
 #cover-header-wrapper{
     position:relative;
     min-height:100%;
-    overflow: hidden;
     
 }
-#cover-main .section-content, #cover-main .row,#cover-main .container-fluid {
-    min-height:100%;
+#cover-main .section-content, #cover-main .row,#cover-main .container-fluid { 
     height:100%; 
-    overflow: hidden;
+    
 }
 
 #cover-header{
-    /*position:absolute;
+    width:100%;
+    position:absolute;
     top:50%;
-    transform: translateY(-50%);*/
+    transform: translateY(-50%);
 }
 
 
