@@ -146,6 +146,8 @@ background-size:16px 16px; */
   #000000 10px
 ); */
     border: 1px solid rgba(128,128,128,.125);
+     /* box-shadow: 5px 5px 5px #888888;*/
+  
 }
 .portfolio-item-wrapper:hover{
     border-width: thick;
@@ -170,4 +172,27 @@ background-size:16px 16px; */
 .trans-content-background{
     background: rgba(0,0,0,0.3);
     
+}
+
+/* FOOTER STYLES */
+.footer-content{
+    background-color:#E6BE8A;
+    padding-top: 20px;
+    border-top: thin;
+    border-top-style: solid;
+    border-top-color: gray;
+    
+}
+
+#footer-sub-head{
+    
+}
+
+.footer-links-header{
+    text-align: center;
+    font-weight:bold
+}
+
+#footer-copyright{
+    text-align: center;
 }
