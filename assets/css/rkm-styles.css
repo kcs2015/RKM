@@ -123,7 +123,7 @@ background-size:16px 16px; */
 .portfolio-content{
     width:100%;
    min-height: 20.5rem;
-    background-color: #E6BE8A; 
+   
     padding-bottom: 1px;
 }
 .portfolio-column{   
@@ -132,7 +132,6 @@ background-size:16px 16px; */
 }
 .portfolio-item-header{
     text-align: center;
-    color: ;
     line-height: inherit;
 }
 .portfolio-item-wrapper{
@@ -145,14 +144,18 @@ background-size:16px 16px; */
   #000000 5px,
   #000000 10px
 ); */
-    border: 1px solid rgba(128,128,128,.125);
-     /* box-shadow: 5px 5px 5px #888888;*/
+     background-color: #E6BE8A; 
+      box-shadow: 5px 5px 5px #888888;
   
 }
 .portfolio-item-wrapper:hover{
+    background-color:#e2b275;
+    
+    /* BORDER EFFECT
+    
     border-width: thick;
     border-color: #C0C0C0;
-    border-style: solid;
+    border-style: solid;*/
 }
 /* CONTACT STYLES */
 #contact-main{
@@ -166,7 +169,7 @@ background-size:16px 16px; */
     background: rgba(0,0,0,0.2);
 }
 #contact-main .section-content{
-   color: white
+   color: white;
 }
 
 .trans-content-background{
