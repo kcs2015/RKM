@@ -114,16 +114,44 @@ radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#282828;
 background-size:16px 16px; */
 }
+#portfolio-main .section-header{
+    margin-bottom: 20px;
+}
+#portfolio-item-row{
+    padding: 10px 50px;
+}
 .portfolio-content{
     width:100%;
    min-height: 20.5rem;
-    background-color: lightgray;    
+    background-color: #E6BE8A; 
+    padding-bottom: 1px;
 }
 .portfolio-column{   
     margin-left: 0px;
     margin-right: 0px;
 }
-
+.portfolio-item-header{
+    text-align: center;
+    color: ;
+    line-height: inherit;
+}
+.portfolio-item-wrapper{
+    /* Increase padding to show striped background
+    padding: 0%;
+    background: repeating-linear-gradient(
+  45deg,
+  #696969,
+  #696969 5px,
+  #000000 5px,
+  #000000 10px
+); */
+    border: 1px solid rgba(128,128,128,.125);
+}
+.portfolio-item-wrapper:hover{
+    border-width: thick;
+    border-color: #C0C0C0;
+    border-style: solid;
+}
 /* CONTACT STYLES */
 #contact-main{
     background: url('../images/AdobeStock_78760031_WM.jpeg') right no-repeat;
