@@ -70,6 +70,9 @@ section {
 }
 
 /* TECHNOLOGY STYLES */
+#technology-main{
+    padding-bottom: 10px;
+}
 #technology-header-area{
     background: rgba(0,0,0,0.6);
     text-align:center;
@@ -83,7 +86,7 @@ section {
    color:white;
     
 }
-#technology{
+#technology-main{
    
     background: url(../images/AdobeStock_75860096_WM.jpeg) 100% -100px no-repeat fixed;
     background-size: cover;
@@ -101,7 +104,7 @@ section {
 }
 
 .tech-content-row:last-child .tech-content{
-    margin-bottom: 0px;
+    /*margin-bottom: 0px;*/
 }
 
 .tech-logo-content, .tech-logo-header{
