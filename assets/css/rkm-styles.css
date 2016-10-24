@@ -227,6 +227,15 @@ background-size:16px 16px; */
     
 }
 
+/* === ABOUT US STYLES === */
+#about-us-cover-main{
+    background: url(../images/AdobeStock_118529315_WM.jpeg) no-repeat  100% 100% fixed;
+    background-size: cover;
+    height: 600px;
+    color: white;
+
+    
+}
 
 /* FOOTER STYLES */
 .footer-content{
