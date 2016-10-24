@@ -191,6 +191,18 @@ background-size:16px 16px; */
     
 }
 
+/* === PORTFOLIO - CATEGORY PAGE STYLES === */
+.portfolio-list-row{
+    padding-top:15px;
+    margin: 10px 0px;
+    
+}
+
+.portfolio-list-text{
+    background: rgba(0,0,0,.1);
+    padding: 8px;
+    border-radius: 5px;
+}
 /* === PORTFOLIO - SINGLE PAGE STYLES === */
 
 #portfolio-cover-main{
