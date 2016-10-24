@@ -208,6 +208,26 @@ background-size:16px 16px; */
     
 }
 
+
+/* === CONTACT PAGE STYLES === */
+
+
+#contact-cover-main{
+    background: url(../images/AdobeStock_89099628_WM.jpeg) no-repeat  100% -450px fixed;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+#contact-form-wrapper{
+    border-width: thin;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgray
+    
+}
+
+
 /* FOOTER STYLES */
 .footer-content{
     background-color:#E6BE8A;
