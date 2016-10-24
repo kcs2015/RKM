@@ -164,6 +164,7 @@ background-size:16px 16px; */
 ); */
      background-color: #E6BE8A; 
       box-shadow: 5px 5px 5px #888888;
+    margin-bottom: 15px;
   
 }
 .portfolio-item-wrapper:hover{
