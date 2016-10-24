@@ -24,13 +24,13 @@ section {
 
 /* COVER STYLES */
 
-#cover-header{
+.cover-header{
     
    padding: .75rem 1rem;
    text-align: center;
     
 }
-#cover-sub-header{
+.cover-sub-header{
     font-style: italic;
 }
 
@@ -42,17 +42,17 @@ section {
     color: white;
 }
 
-#cover-header-wrapper{
+.cover-header-wrapper{
     position:relative;
     min-height:100%;
     
 }
-#cover-main .section-content, #cover-main .row,#cover-main .container-fluid { 
+.page-cover, .page-cover .section-content, .page-cover .row,.page-cover .container-fluid { 
     height:100%; 
     
 }
 
-#cover-header{
+.cover-header{
     width:100%;
     position:absolute;
     top:50%;
@@ -156,6 +156,37 @@ background-size:16px 16px; */
     border-width: thick;
     border-color: #C0C0C0;
     border-style: solid;*/
+}
+
+/* === PORTFOLIO PAGE STYLES === */
+
+
+#portfolio-cover-main{
+    background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+.portfolio-project-info{
+    padding: 10px;
+    border-radius: 5px
+}
+
+#portfolio-project-tech-info{
+     background-color:#E6BE8A;
+    
+}
+
+#portfolio-project-objective{
+    background:	#F0F8FF;
+    margin-bottom: 10px;
+    
+}
+#portfolio-project-results{
+    background:	#2E8B57;
+    padding: 10px;
+    margin-bottom: 10px;
+    
 }
 /* CONTACT STYLES */
 #contact-main{
