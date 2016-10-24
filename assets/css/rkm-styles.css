@@ -96,7 +96,7 @@ section {
 }
 
 
-/* PORTFOLIO STYLES */
+/* PORTFOLIO - HOMEPAGE STYLES */
 #portfolio-main{
 
     background: url('../images/cream_pixels.png') repeat;
@@ -158,8 +158,14 @@ background-size:16px 16px; */
     border-style: solid;*/
 }
 
-/* === PORTFOLIO PAGE STYLES === */
+/* === PORTFOLIO - CATEGORY PAGE STYLES === */
+#portfolio-category-content{
+    
+    background: url('../images/cream_pixels.png') repeat;
+    
+}
 
+/* === PORTFOLIO - SINGLE PAGE STYLES === */
 
 #portfolio-cover-main{
     background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
