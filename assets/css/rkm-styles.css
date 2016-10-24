@@ -36,7 +36,7 @@ section {
 
 
 #cover-main{
-    background: url(../images/AdobeStock_75860096_WM.jpeg) 100% -100px no-repeat fixed;
+     background: url('../images/AdobeStock_85480562_WM.jpeg') no-repeat fixed;
     background-size: cover;
     height: 600px;
     color: white;
@@ -70,20 +70,38 @@ section {
 }
 
 /* TECHNOLOGY STYLES */
+#technology-header-area{
+    background: rgba(0,0,0,0.6);
+    text-align:center;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
+    
+    
+}
 .technology-header{
    color:white;
     
 }
 #technology{
-    background: url('../images/AdobeStock_85480562_WM.jpeg') center center no-repeat fixed;
+   
+    background: url(../images/AdobeStock_75860096_WM.jpeg) 100% -100px no-repeat fixed;
     background-size: cover;
     color: white;
     
 }
 .tech-content{
     padding: 0 1.5rem;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.75);
     color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom:15px;
+    text-align: justify;
+}
+
+.tech-content-row:last-child .tech-content{
+    margin-bottom: 0px;
 }
 
 .tech-logo-content, .tech-logo-header{
@@ -196,21 +214,21 @@ background-size:16px 16px; */
 }
 /* CONTACT STYLES */
 #contact-main{
-    background: url('../images/AdobeStock_78760031_WM.jpeg') right no-repeat;
+    background: url('../images/AdobeStock_78760031_WM.jpeg') left top no-repeat;
     background-size:cover;
     
 }
 
 #contact-us-info{
     padding: 1rem 2rem;
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.0);
 }
 #contact-main .section-content{
    color: white;
 }
 
 .trans-content-background{
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.7);
     
 }
 
