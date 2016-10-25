@@ -270,6 +270,11 @@ background-size:16px 16px; */
     background: rgba(0,0,0,0.7);
     
 }
+.trans-content-background-light{
+    background: rgba(0,0,0,0.3);
+    border-radius:5px;
+    
+}
 
 
 /* === CONTACT PAGE STYLES === */
