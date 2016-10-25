@@ -203,12 +203,20 @@ background-size:16px 16px; */
     padding: 8px;
     border-radius: 5px;
 }
+
+.portfolio-img-thumb{
+    padding: 10px;
+}
 /* === PORTFOLIO - SINGLE PAGE STYLES === */
 
 #portfolio-project-content{
     
     background: url('../images/cream_pixels.png') repeat;
     
+}
+#portfolio-modal-content{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #portfolio-cover-main{
