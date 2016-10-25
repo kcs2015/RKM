@@ -184,14 +184,14 @@ background-size:16px 16px; */
     border-style: solid;*/
 }
 
+
+
 /* === PORTFOLIO - CATEGORY PAGE STYLES === */
 #portfolio-category-content{
     
     background: url('../images/cream_pixels.png') repeat;
     
 }
-
-/* === PORTFOLIO - CATEGORY PAGE STYLES === */
 .portfolio-list-row{
     padding-top:15px;
     margin: 10px 0px;
@@ -205,6 +205,12 @@ background-size:16px 16px; */
 }
 /* === PORTFOLIO - SINGLE PAGE STYLES === */
 
+#portfolio-project-content{
+    
+    background: url('../images/cream_pixels.png') repeat;
+    
+}
+
 #portfolio-cover-main{
     background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
     background-size: cover;
@@ -213,7 +219,8 @@ background-size:16px 16px; */
 }
 .portfolio-project-info{
     padding: 10px;
-    border-radius: 5px
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 #portfolio-project-tech-info{
@@ -230,6 +237,7 @@ background-size:16px 16px; */
     background:	#2E8B57;
     padding: 10px;
     margin-bottom: 10px;
+    color:azure;
     
 }
 /* CONTACT STYLES */
