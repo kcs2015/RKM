@@ -246,6 +246,9 @@ background-size:16px 16px; */
     background-size:cover;
     
 }
+#contact-main-content{
+    padding-bottom:0px;
+}
 
 #contact-us-info{
     padding: 1rem 2rem;
@@ -303,6 +306,10 @@ background-size:16px 16px; */
     
 }
 
+#footer-main-row{
+    
+}
+
 .footer-links-header{
     text-align: center;
     font-weight:bold
@@ -310,4 +317,5 @@ background-size:16px 16px; */
 
 #footer-copyright{
     text-align: center;
+    font-size: 12px;
 }
