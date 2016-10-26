@@ -27,14 +27,24 @@ section {
 }
 #nav-header .nav-item{
   background-color: rgba(0,0,0,.5);
-    padding: 0px 5px;
+    padding: 0px 7px;
     border-radius:0px 15px;
+    margin-top: 5px 
 }
+
 #nav-header .nav-link:hover{
   
     color:#dbb800;
 }
 
+#navbar-header-site .navbar-toggler {
+    float:left;
+}
+
+#navbar-header-site{
+    color:white;
+    text-align: center;
+}
 /* Navigation Styles */
 .navbar-brand{
    /* font-family: 'Racing Sans One', cursive;
@@ -56,7 +66,8 @@ font-family: 'Yellowtail', cursive;*/
     text-shadow: 1px 2px 2px #dbb800;
 }
 .navbar-brand span{
-   /* color: #dbb800;*/
+   text-align: center;
+    padding-bottom: 25px;
 }
 
 /* == SECTION STYLES == */
@@ -434,9 +445,6 @@ background-size:16px 16px; */
     font-size: 12px;
 }
 
-#services-main .card-group {
-    
-}
 /* === MEDIA QUERIS === */
 
 /* Small. Below 34em (544px) */
@@ -471,6 +479,10 @@ background-size:16px 16px; */
        font-size: 5rem;
     }
     
+        .navbar-brand {
+           float: none;
+        }
+    
     
 }
 
@@ -478,11 +490,14 @@ background-size:16px 16px; */
 @media screen and (min-width: 34em) {
     
     /* SINGLE PORTFOLIO HEADER */
-    #cover-header-portfolio h1{
+        #cover-header-portfolio h1{
         font-size: 3.75rem;
     }
-    #cover-sub-header-portfolio h2{
+        #cover-sub-header-portfolio h2{
         font-size: 2rem;
+    }
+        .navbar-nav {
+       float: right;
     }
 }
 /* Medium. Above 48em (768px) */
