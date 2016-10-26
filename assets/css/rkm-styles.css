@@ -120,6 +120,13 @@ section {
     width: 140px;
 }
 
+.tech-explain .card-block{
+    background: rgba(1,1,1,.3);
+    border-style:solid;
+    border-width: thin;
+    border-color: white;
+}
+
 
 /* PORTFOLIO - HOMEPAGE STYLES */
 #portfolio-main{
@@ -139,17 +146,26 @@ radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#282828;
 background-size:16px 16px; */
 }
+
+.portfolio-item-header{
+        line-height: 2rem;
+    }
+
 #portfolio-main .section-header{
     margin-bottom: 20px;
 }
 #portfolio-item-row{
     padding: 10px 50px;
 }
-.portfolio-content{
-    width:100%;
-   min-height: 20.5rem;
-   
-    padding-bottom: 1px;
+.portfolio-main-content{
+     width:100%;
+     min-height: 20.5rem;
+     padding-bottom: 1px;
+}
+
+.portfolio-main-thumbnail-content{
+   background-color: white;
+    padding: 2rem;
 }
 .portfolio-column{   
     margin-left: 0px;
@@ -246,8 +262,9 @@ background-size:16px 16px; */
     padding: 10px;
     margin-bottom: 10px;
     color:azure;
-    
 }
+
+
 /* CONTACT STYLES */
 #contact-main{
     background: url('../images/AdobeStock_78760031_WM.jpeg') left top no-repeat;
@@ -331,4 +348,43 @@ background-size:16px 16px; */
 #footer-copyright{
     text-align: center;
     font-size: 12px;
+}
+
+/* === MEDIA QUERIS === */
+
+/* Small. Above 34em (544px) */
+@media screen and (max-width: 34em) {
+    #cover-header-main .display-2{
+        font-size: 3.5em;
+    }
+    #cover-sub-header h2{
+        font-size: 2.5em;
+    }
+    
+    .portfolio-item-header{
+        
+    }
+    
+    
+}
+/* Small. Above 34em (544px) */
+@media screen and (min-width: 34em) {
+
+}
+
+/* Medium. Above 48em (768px) */
+@media screen and (min-width: 48em) {
+  
+
+}
+
+/* Large. Above 62em (992px) */
+@media screen and (min-width: 62em) {
+
+}
+
+/* Extra large. Above 75em (1200px) */
+@media screen and (min-width: 75em) {
+
+}
 }
