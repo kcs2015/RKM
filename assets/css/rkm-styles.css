@@ -15,6 +15,51 @@ section {
     margin-top: 0px;
     
 }
+#navbar-header-site{
+    background-color: rgba(0,0,0,.25);
+}
+#nav-header{
+    line-height: 2rem;
+}
+#nav-header .nav-link{
+   color:white;
+    font-weight: 500;
+}
+#nav-header .nav-item{
+  background-color: rgba(0,0,0,.5);
+    padding: 0px 5px;
+    border-radius:0px 15px;
+}
+#nav-header .nav-link:hover{
+  
+    color:#dbb800;
+}
+
+/* Navigation Styles */
+.navbar-brand{
+   /* font-family: 'Racing Sans One', cursive;
+font-family: 'Crimson Text', serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Play', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Domine', serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Patua One', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Old Standard TT', serif;
+
+font-family: 'Yellowtail', cursive;*/
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    text-shadow: 1px 2px 2px #dbb800;
+}
+.navbar-brand span{
+   /* color: #dbb800;*/
+}
+
+/* == SECTION STYLES == */
 .section-content{
     height: 100%;
 }
