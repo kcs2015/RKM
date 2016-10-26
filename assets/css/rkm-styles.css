@@ -55,7 +55,7 @@ section {
 .cover-header{
     width:100%;
     position:absolute;
-    top:50%;
+    top:60%;
     transform: translateY(-50%);
 }
 
@@ -225,6 +225,15 @@ background-size:16px 16px; */
 }
 /* === PORTFOLIO - SINGLE PAGE STYLES === */
 
+#portfolio-single-cover{
+    background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+#cover-header-wrapper-portfolio{
+    
+}
 #portfolio-project-content{
     
     background: url('../images/cream_pixels.png') repeat;
@@ -352,7 +361,7 @@ background-size:16px 16px; */
 
 /* === MEDIA QUERIS === */
 
-/* Small. Above 34em (544px) */
+/* Small. Below 34em (544px) */
 @media screen and (max-width: 34em) {
     #cover-header-main .display-2{
         font-size: 3.5em;
@@ -364,17 +373,33 @@ background-size:16px 16px; */
     .portfolio-item-header{
         
     }
+    /* SINGLE PORTFOLIO HEADER */
+    #cover-header-portfolio h1{
+        font-size: 2.75rem;
+    }
+    #cover-sub-header-portfolio h2{
+        font-size: 1.25rem;
+    }
     
     
 }
+
+
+
 /* Small. Above 34em (544px) */
 @media screen and (min-width: 34em) {
-
+    
+    /* SINGLE PORTFOLIO HEADER */
+    #cover-header-portfolio h1{
+        font-size: 3.75rem;
+    }
+    #cover-sub-header-portfolio h2{
+        font-size: 2rem;
+    }
 }
-
 /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
-  
+
 
 }
 
@@ -386,5 +411,4 @@ background-size:16px 16px; */
 /* Extra large. Above 75em (1200px) */
 @media screen and (min-width: 75em) {
 
-}
 }
