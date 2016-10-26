@@ -286,17 +286,21 @@ background-size:16px 16px; */
     padding: 10px;
 }
 /* === PORTFOLIO - SINGLE PAGE STYLES === */
-
+.portfolio-nav-wrapper{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
 #portfolio-single-cover{
     background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
     background-size: cover;
     color: white;
 }
+
 #cover-header-wrapper-portfolio{
     
 }
 #portfolio-project-content{
-    
+    padding-top: 10px;
     background: url('../images/cream_pixels.png') repeat;
     
 }
