@@ -59,9 +59,14 @@ section {
     transform: translateY(-50%);
 }
 
+.page-cover.small-page-cover{
+    
+    height: 300px;
+}
+
 
 /* SERVICES STYLES */
-#services {
+#services-main {
     background: url('../images/cream_pixels.png') repeat;
 }
 .service-img{
@@ -228,7 +233,6 @@ background-size:16px 16px; */
 #portfolio-single-cover{
     background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
     background-size: cover;
-    height: 300px;
     color: white;
 }
 #cover-header-wrapper-portfolio{
@@ -306,10 +310,9 @@ background-size:16px 16px; */
 /* === CONTACT PAGE STYLES === */
 
 
-#contact-cover-main{
+#contact-cover-single{
     background: url(../images/AdobeStock_89099628_WM.jpeg) no-repeat  100% -450px fixed;
     background-size: cover;
-    height: 600px;
     color: white;
 }
 
@@ -325,7 +328,7 @@ background-size:16px 16px; */
 #about-us-cover-main{
     background: url(../images/AdobeStock_118529315_WM.jpeg) no-repeat  100% 100% fixed;
     background-size: cover;
-    height: 600px;
+    
     color: white;
 
     
@@ -370,6 +373,9 @@ background-size:16px 16px; */
     font-size: 12px;
 }
 
+#services-main .card-group {
+    
+}
 /* === MEDIA QUERIS === */
 
 /* Small. Below 34em (544px) */
@@ -390,6 +396,13 @@ background-size:16px 16px; */
     }
     #cover-sub-header-portfolio h2{
         font-size: 1.25rem;
+    }
+    
+    
+      #services-main .card-group {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
     }
     
     
