@@ -13,6 +13,7 @@ section {
     padding: 2rem 0;
     margin-bottom: 0px;
     margin-top: 0px;
+    
 }
 .section-content{
     height: 100%;
@@ -40,6 +41,8 @@ section {
     background-size: cover;
     height: 600px;
     color: white;
+    
+   
 }
 
 .cover-header-wrapper{
@@ -47,10 +50,19 @@ section {
     min-height:100%;
     
 }
-.page-cover, .page-cover .section-content, .page-cover .row,.page-cover .container-fluid { 
+.page-cover{
+    height: 600px;
+   /* border-style: solid;
+    border-bottom-width: medium;
+*/
+    box-shadow: 2px 5px 5px #888888;
+     margin-bottom:7px;
+}
+ .page-cover .section-content, .page-cover .row,.page-cover .container-fluid { 
     height:100%; 
     
 }
+
 
 .cover-header{
     width:100%;
@@ -406,9 +418,12 @@ background-size:16px 16px; */
     }
     
     
+      #cover-header-contact h1 {
+       font-size: 5rem;
+    }
+    
+    
 }
-
-
 
 /* Small. Above 34em (544px) */
 @media screen and (min-width: 34em) {
