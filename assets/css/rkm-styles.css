@@ -185,13 +185,13 @@ background-size:16px 16px; */
   #000000 5px,
   #000000 10px
 ); */
-     background-color: #E6BE8A; 
+     background-color: #dbb800; 
       box-shadow: 5px 5px 5px #888888;
     margin-bottom: 15px;
   
 }
 .portfolio-item-wrapper:hover{
-    background-color:#e2b275;
+    background-color:#c5a500;
     
     /* BORDER EFFECT
     
@@ -353,6 +353,16 @@ background-size:16px 16px; */
 .footer-links-header{
     text-align: center;
     font-weight:bold
+}
+
+.footer-link {
+    color: #014c8c;
+    font-weight: 500;
+    
+}
+.footer-link:hover {
+    font-weight: bold;
+    
 }
 
 #footer-copyright{
