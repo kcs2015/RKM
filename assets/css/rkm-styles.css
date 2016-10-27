@@ -145,6 +145,10 @@ font-family: 'Yellowtail', cursive;*/
     transform: translateY(-50%);
 }
 
+#cover-header-main {
+        border-radius: 10px;
+    }
+
 .page-cover.small-page-cover{
     
     height: 300px;
@@ -189,13 +193,13 @@ font-family: 'Yellowtail', cursive;*/
     
 }
 .tech-content{
-    padding: 0 1.5rem;
-    background: rgba(0,0,0,0.75);
+    background: rgba(0,0,0,0.5);
     color:white;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 5px;
     margin-bottom:15px;
     text-align: justify;
+    border-radius: 10px;
 }
 
 .tech-content-row:last-child .tech-content{
@@ -204,11 +208,15 @@ font-family: 'Yellowtail', cursive;*/
 
 .tech-logo-content, .tech-logo-header{
     text-align: center;
+    
 }
 
 .logo-img{
-    height: 140px;
+    background: rgba(255,255,255,.75);
+    padding: 20px;
     width: 140px;
+    height: auto;
+    border-radius:10px
 }
 
 .tech-explain .card-block{
@@ -216,6 +224,8 @@ font-family: 'Yellowtail', cursive;*/
     border-style:solid;
     border-width: thin;
     border-color: white;
+    margin: .75rem;
+    padding:.5rem;
 }
 
 
@@ -376,6 +386,7 @@ background-size:16px 16px; */
 }
 #contact-main-content{
     padding-bottom:0px;
+    border-radius:10px;
 }
 
 #contact-us-info{
