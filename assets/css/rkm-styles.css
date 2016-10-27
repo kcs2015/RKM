@@ -187,7 +187,7 @@ font-family: 'Yellowtail', cursive;*/
 }
 #technology-main{
    
-    background: url(../images/AdobeStock_75860096_WM.jpeg) 100% -100px no-repeat fixed;
+    background: url(../images/AdobeStock_75860096_WM.jpeg) 100% -100px no-repeat;
     background-size: cover;
     color: white;
     
@@ -327,6 +327,10 @@ background-size:16px 16px; */
 .portfolio-img-thumb{
     padding: 10px;
 }
+
+.portfolio-thumbnails-col{
+    float:right;
+}
 /* === PORTFOLIO - SINGLE PAGE STYLES === */
 .portfolio-nav-wrapper{
     margin-top: 5px;
@@ -352,9 +356,9 @@ background-size:16px 16px; */
 }
 
 #portfolio-cover-main{
-    background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
+    background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -350px fixed;
     background-size: cover;
-    height: 600px;
+    height: 300px;
     color: white;
 }
 .portfolio-project-info{
@@ -506,11 +510,11 @@ background-size:16px 16px; */
     }
     
     
-      #services-main .card-group {
+     /* #services-main .card-group {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
-    }
+    }*/
     
     
       #cover-header-contact h1 {
@@ -521,6 +525,19 @@ background-size:16px 16px; */
            float: none;
         }
     
+    #technology-main{
+   
+    background-size: cover;
+     background-position: center center;
+    background-attachment:scroll;
+    
+}
+    
+    
+#portfolio-cover-main{
+    background-position: 50% -175px;
+    height: 300px;
+}
     
 }
 
@@ -537,15 +554,34 @@ background-size:16px 16px; */
         .navbar-nav {
        float: right;
     }
+    
+        #technology-main{
+   
+    background-size: cover;
+     background-position: center center;
+    background-attachment:scroll;
+    
+}
+
 }
 /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
-
+        #technology-main{
+   
+    background-size: cover;
+     background-position: center center;
+    background-attachment:fixed;
+    
+}
 
 }
 
 /* Large. Above 62em (992px) */
 @media screen and (min-width: 62em) {
+        .logo-img{
+    margin-left: .5rem;
+    margin-right: .5rem;
+    }
 
 }
 
