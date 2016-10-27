@@ -72,44 +72,61 @@
                  <div class="col-xs-10 offset-xs-1">
                   <div id="contact-form-wrapper">
                      <p id="contact-us-info" class="text-xs-center lead">Please fill out the contact form below and we will contact you within 48 hours.</p>
-                      <form class=".trans-content-background">
+                      <div id="contact-alert-success" style="display:none" class="alert alert-success alert-dismissible fade in contact-alert-success" role="alert">
+                  
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <strong>SUBMISSION SENT:</strong> Thank you for contacting us!</div>
+             
+              
+                 <div id="contact-alert-fail"  style="display:none" class="alert alert-danger alert-dismissible fade in contact-alert-success" role="alert"  >
+                  
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+<strong> ERROR:</strong> Message not sent! Please contact us via email at: info@richknightmedia.com </div>
+             
+                      <!--<p id="contact-us-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia eum voluptatibus, sunt officia id dignissimos architecto in laboriosam vitae cumque blanditiis repellat amet sed magnam vero quae, eos libero autem.</p>-->
+                      
+                      <form>
                         <div class="form-group row">
-                          <label for="example-text-input" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Your Name:</label>
+                          <label for="contact-input-name" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Your Name:</label>
                           <div class="col-xs-6 col-sm-7">
-                            <input class="form-control" type="text" value="" id="example-text-input" placeholder="Enter your name">
+                            <input class="form-control" type="text" value="" id="contact-input-name" placeholder="Enter your name">
                           </div>
                         </div>
                              <div class="form-group row">
-                            <label for="telephone" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Telephone:</label>
+                            <label for="contact-input-telephone" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Telephone:</label>
                             <div class="col-xs-6 col-sm-7">
-                            <input type="tel" class="form-control" id="telephone" aria-describedby="emailHelp" placeholder="Example : 1-(555)-555-5555">
+                            <input type="tel" class="form-control" id="contact-input-telephone" aria-describedby="emailHelp" placeholder="Example : 1-(555)-555-5555">
                                
                             </div>
                            
                           </div>
                           <div class="form-group row">
-                            <label for="emailAddress" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Email address:</label>
+                            <label for="contact-input-email-address" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Email address:</label>
                             <div class="col-xs-6 col-sm-7">
-                            <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Enter your email address">
+                            <input type="email" class="form-control" id="contact-input-email-address" aria-describedby="emailHelp" placeholder="Enter your email address">
                                 <small id="emailHelp" class="form-text ">We'll never share your email with anyone else.</small>
                             </div>
                            
                           </div>
                         <div class="form-group row">
-                            <label for="messageSubject" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Subject:</label>
+                            <label for="contact-input-message-subject" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Subject:</label>
                             <div class="col-xs-6 col-sm-7">
-                            <input type="text" class="form-control" id="messageSubject" placeholder="What's your message about?">
+                            <input type="text" class="form-control" id="contact-input-message-subject" placeholder="What's your message about?">
                                
                             </div>
                            
                           </div>
                     <div class="form-group row">
-                            <label for="messageBody" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Body:</label>
+                            <label for="contact-input-message-body" class="col-xs-4 col-sm-3 col-form-label offset-xs-1 offset-sm-1">Body:</label>
                             <div class="col-xs-6 col-sm-7">
-                            <textarea class="form-control" id="messageBody" rows="6"></textarea>
+                            <textarea class="form-control" id="contact-input-message-body" rows="6"></textarea>
                             <br />
                               
-                            <p class="text-xs-right"><button type="submit" class="btn btn-primary">Submit</button></p>
+                            <p class="text-xs-right"><button type="button" class="btn btn-primary contact-us-submit-btn" >Submit Your Message</button></p>
          
           
                             </div>
@@ -162,11 +179,18 @@
       </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>-->
+        <script src="assets/jquery/3.0.0/jquery.min.js"></script>
+    <!-- TETHER JS-->
+       <script src="assets/tether/1.2.0/tether.min.js"></script>
+       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>-->
+    <!-- BOOTSTRAP JS -->
+    <script src="assets/bootstrap-v4/js/bootstrap.min.js"></script>
+        <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>-->
+    <!-- PARALLAX JS -->
     <script src="assets/js/main.js" ></script>
-
+    <!-- RKM JS -->
+    <script src="assets/js/rkm-scripts.js" ></script>
 
     </body>
 </html>
