@@ -391,7 +391,7 @@ background-size:16px 16px; */
 
 /* CONTACT STYLES */
 #contact-main{
-    background: url('../images/AdobeStock_78760031_WM.jpeg') left top no-repeat;
+    background: url('../images/AdobeStock_78760031_WM.jpeg') left top no-repeat fixed;
     background-size:cover;
     
 }
