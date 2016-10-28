@@ -345,11 +345,7 @@ background-size:16px 16px; */
     margin-top: 5px;
     margin-bottom: 10px;
 }
-#portfolio-single-cover{
-    background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
-    background-size: cover;
-    color: white;
-}
+
 
 #portfolio-project-content{
     padding-top: 10px;
@@ -361,13 +357,20 @@ background-size:16px 16px; */
     padding-bottom: 5px;
 }
 
-#portfolio-cover-main{
+#portfolio-cover-main , #portfolio-single-cover{
     background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% center fixed;
      background-size: cover;
     height: 300px;
     color: white;
     
 }
+/* USED ABOVE
+#portfolio-single-cover{
+    background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% -300px fixed;
+    background-size: cover;
+    color: white;
+}*/
+
 .portfolio-project-info{
     padding: 10px;
     border-radius: 5px;
