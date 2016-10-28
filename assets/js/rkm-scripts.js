@@ -26,7 +26,7 @@ $(document).ready(function(){
 				messages: {
 					'contact-input-name': " Please enter your name",
 					'contact-input-email-address': " Please enter a valid email address",
-					'contact-input-message-subject': "Please enter a subject",
+					'contact-input-message-subject': " Please enter a subject",
 					'contact-input-message-body': " Please enter a message"
 				},
 				errorElement: "em",
