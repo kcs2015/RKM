@@ -38,9 +38,7 @@ section {
 em{
     color:tomato;
 }
-#navbar-header-site{
-    background-color: rgba(0,0,0,.25);
-}
+
 #nav-header{
     line-height: 2rem;
 }
@@ -64,10 +62,7 @@ em{
     float:left;
 }
 
-#navbar-header-site{
-    color:white;
-    text-align: center;
-}
+
 /* Navigation Styles */
 .navbar-brand{
    /* font-family: 'Racing Sans One', cursive;
@@ -127,14 +122,7 @@ font-family: 'Yellowtail', cursive;*/
 }
 
 
-#cover-main{
-     background: url('../images/AdobeStock_85480562_WM.jpeg') no-repeat fixed;
-    background-size: cover;
-   
-    color: white;
-    
-   
-}
+
 
 .cover-header-wrapper{
     position:relative;
@@ -425,6 +413,7 @@ background-size:16px 16px; */
 
 .trans-content-background{
     background: rgba(0,0,0,0.7);
+    border-radius:5px
     
 }
 .trans-content-background-light{
@@ -442,6 +431,13 @@ background-size:16px 16px; */
 
 /* === CONTACT PAGE STYLES === */
 
+#contact-content{
+     background: url('../images/cream_pixels.png') repeat;
+    
+}
+#contact-form-wrapper{
+    color:white;
+}
 
 #contact-cover-single{
     background: url(../images/AdobeStock_89099628_WM.jpeg) no-repeat fixed;
@@ -512,53 +508,48 @@ background-size:16px 16px; */
     text-align:center;
 }
 
-/* === MEDIA QUERIS === */
 
-/* EXTRA SMALL. Below 34em (544px) */
-@media screen and (max-width: 34em) {
-    #cover-main{
+/* REMOVED FROM EXTRA SMALL  */
+        #cover-main{
         background-size: 300%;
         background-position: center;
         height: 600px;
       
-    } 
-    #cover-header-main .display-2{
-        font-size: 3.5em;
     }
+        /* FOUND PRE MEDIA QUERY */
+            #cover-main{
+                 background: url('../images/AdobeStock_85480562_WM.jpeg') no-repeat fixed;
+                background-size: cover;
+                color: white;
+            }
+  
+/* FIXED - ADDED ADDITIONAL QUERY ** */
+      #cover-header-main .display-2{
+            font-size: 3.5em;
+        }
     #cover-sub-header h2{
         font-size: 2.5em;
     }
-    
-    .portfolio-item-header{
-        
-    }
-    /* SINGLE PORTFOLIO HEADER */
+/* SINGLE PORTFOLIO HEADER */
     #cover-header-portfolio h1{
         font-size: 2.75rem;
     }
-    #cover-sub-header-portfolio h2{
+#cover-sub-header-portfolio h2{
         font-size: 1.25rem;
     }
-    
-    
-     /* #services-main .card-group {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }*/
-    
     
       #cover-header-contact h1 {
        font-size: 4rem;
     }
-      #cover-header-about h1 {
+
+#cover-header-about h1 {
        font-size: 4rem;
     }
-    
-        .navbar-brand {
+
+  .navbar-brand {
            float: none;
         }
-    
+
     #technology-main{
    
     background-size: cover;
@@ -566,29 +557,41 @@ background-size:16px 16px; */
     background-attachment:scroll;
     
 }
+
     
-    
-#portfolio-cover-single{
-    background-position: 50% -175px;
-    height: 300px;
-}
-    
-    
+    /* MIGHT BE #portfolio-single-cover
+    #portfolio-cover-single{
+        background-position: 50% -175px;
+        height: 300px;
+    }*/
+
+  
     #contact-cover-single{
     background-size: cover;
       background-position: center;
     
-}
-        /* Make nav bar dark for mobile devices */
+    }
+
+ /* Make nav bar dark for mobile devices */
     #navbar-header-site{
          background-color: rgba(0,0,0,.65);
+            color:white;
+    text-align: center;
     }
     
-    
-}
+
+/* end FIXED - ADDED ADDITIONAL QUERY ** */
+
+/* === MEDIA QUERIES === */
+
 
 /* Small. Above 34em (544px) */
 @media screen and (min-width: 34em) {
+    
+    #navbar-header-site{
+    background-color: rgba(0,0,0,.25);
+
+}
     
     /* SINGLE PORTFOLIO HEADER */
         #cover-header-portfolio h1{
@@ -611,7 +614,27 @@ background-size:16px 16px; */
       background-position: bottom;
         
      }
+    /* ADDED FROM CSS FIX */
+    #cover-header-main .display-2{
+        font-size: 5.5em;
+    }
+        
+    #cover-sub-header h2{
+        font-size: 3.5em;
+    }
+        
+      #cover-header-contact h1 {
+       font-size: 5.5rem;
+    }
+    #cover-header-about h1 {
+       font-size: 5.5rem;
+    }
     
+      .navbar-brand {
+           float: left;
+        }
+    
+   /*********************************/ 
     
 #portfolio-cover-main{
     background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  center -150px fixed;
