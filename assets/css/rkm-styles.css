@@ -113,7 +113,7 @@ font-family: 'Yellowtail', cursive;*/
 #cover-main{
      background: url('../images/AdobeStock_85480562_WM.jpeg') no-repeat fixed;
     background-size: cover;
-    height: 600px;
+   
     color: white;
     
    
@@ -141,7 +141,7 @@ font-family: 'Yellowtail', cursive;*/
 .cover-header{
     width:100%;
     position:absolute;
-    top:60%;
+    top:55%;
     transform: translateY(-50%);
 }
 
@@ -198,7 +198,6 @@ font-family: 'Yellowtail', cursive;*/
     padding-top: 15px;
     padding-bottom: 5px;
     margin-bottom:15px;
-    text-align: justify;
     border-radius: 10px;
 }
 
@@ -329,7 +328,12 @@ background-size:16px 16px; */
 }
 
 .portfolio-thumbnails-col{
-    float:right;
+    float:right !important;
+}
+
+.portfolio-card{
+    border-style: solid;
+    
 }
 /* === PORTFOLIO - SINGLE PAGE STYLES === */
 .portfolio-nav-wrapper{
@@ -425,7 +429,7 @@ background-size:16px 16px; */
 
 
 #contact-cover-single{
-    background: url(../images/AdobeStock_89099628_WM.jpeg) no-repeat  100% -450px fixed;
+    background: url(../images/AdobeStock_89099628_WM.jpeg) no-repeat fixed;
     background-size: cover;
     color: white;
 }
@@ -487,10 +491,22 @@ background-size:16px 16px; */
     font-size: 12px;
 }
 
+.footer-text-coming-soon{
+    font-size: 11px;
+    display: block;
+    text-align:center;
+}
+
 /* === MEDIA QUERIS === */
 
 /* Small. Below 34em (544px) */
 @media screen and (max-width: 34em) {
+    #cover-main{
+        background-size: 300%;
+        background-position: center;
+        height: 600px;
+      
+    } 
     #cover-header-main .display-2{
         font-size: 3.5em;
     }
@@ -539,6 +555,14 @@ background-size:16px 16px; */
     height: 300px;
 }
     
+    
+    #contact-cover-single{
+    background-size: cover;
+      background-position: center;
+    
+}
+    
+    
 }
 
 /* Small. Above 34em (544px) */
@@ -556,12 +580,17 @@ background-size:16px 16px; */
     }
     
         #technology-main{
-   
+            background-size: cover;
+             background-position: center center;
+            background-attachment:scroll;
+        }
+    #contact-cover-single{
     background-size: cover;
-     background-position: center center;
-    background-attachment:scroll;
+      background-position: bottom;
+     
     
 }
+    
 
 }
 /* Medium. Above 48em (768px) */
@@ -573,6 +602,9 @@ background-size:16px 16px; */
     background-attachment:fixed;
     
 }
+    .portfolio-thumbnails-col{
+    float:right !important;
+}
 
 }
 
@@ -582,10 +614,26 @@ background-size:16px 16px; */
     margin-left: .5rem;
     margin-right: .5rem;
     }
+    
+     #contact-cover-single{
+       background-position:  90% -325px;
+}
+    .portfolio-thumbnails-col{
+    float:right !important;
+}
 
 }
 
 /* Extra large. Above 75em (1200px) */
 @media screen and (min-width: 75em) {
 
+    
+     #contact-cover-single{
+       background-position:  90% -475px;
+     
+    
+}
+    .portfolio-thumbnails-col{
+    float:right !important;
+}
 }
