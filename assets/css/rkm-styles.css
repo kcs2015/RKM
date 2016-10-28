@@ -33,6 +33,11 @@ section {
     margin-top: 0px;
     
 }
+
+/* contact form error messages */
+em{
+    color:tomato;
+}
 #navbar-header-site{
     background-color: rgba(0,0,0,.25);
 }
@@ -86,6 +91,14 @@ font-family: 'Yellowtail', cursive;*/
 .navbar-brand span{
    text-align: center;
     padding-bottom: 25px;
+}
+/* === ICON STYLES === */
+.success-icon{
+    color:green;
+}
+
+.error-icon{
+    color:yellow;
 }
 
 /* == SECTION STYLES == */
