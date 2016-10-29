@@ -47,15 +47,19 @@ em{
     font-weight: 500;
 }
 #nav-header .nav-item{
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(219, 184, 0,.5);
     padding: 0px 7px;
     border-radius:0px 15px;
-    margin-top: 5px 
+    margin-top: 5px; 
+}
+#nav-header .nav-item :hover{
+  
+ 
 }
 
 #nav-header .nav-link:hover{
   
-    color:#dbb800;
+    text-decoration: underline;
 }
 
 #navbar-header-site .navbar-toggler {
