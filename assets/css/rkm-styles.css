@@ -47,7 +47,7 @@ em{
     font-weight: 500;
 }
 #nav-header .nav-item{
-  background-color: rgba(219, 184, 0,.5);
+  background-color: rgba(219, 184, 0,.85);
     padding: 0px 7px;
     border-radius:0px 15px;
     margin-top: 5px; 
@@ -168,9 +168,12 @@ font-family: 'Yellowtail', cursive;*/
 #services-main {
     background: url('../images/cream_pixels.png') repeat;
 }
-.service-img{
-    width: 276px;
-    height: 184px;
+#wordpress-service-logo {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    border-left-width: 0px;
+    border-right-width: 0px;
 }
 
 #web-redesign-subhead{
@@ -196,7 +199,7 @@ font-family: 'Yellowtail', cursive;*/
 }
 #technology-main{
    
-    background: url(../images/AdobeStock_75860096_WM.jpeg) 100% -100px no-repeat;
+    background: url(../images/laptop-colors-explode.jpeg) 100% -100px no-repeat;
     background-size: cover;
     color: white;
     
@@ -362,7 +365,7 @@ background-size:16px 16px; */
 }
 
 #portfolio-cover-main , #portfolio-single-cover{
-    background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  100% center fixed;
+    background: url(../images/interior-photo-gallery.jpeg) no-repeat  100% center fixed;
      background-size: cover;
     height: 300px;
     color: white;
@@ -401,7 +404,7 @@ background-size:16px 16px; */
 
 /* CONTACT STYLES */
 #contact-main{
-    background: url('../images/AdobeStock_78760031_WM.jpeg') left top no-repeat fixed;
+    background: url('../images/keyboard-contact-us-cube.jpeg') left top no-repeat fixed;
     background-size:cover;
     
 }
@@ -447,7 +450,7 @@ background-size:16px 16px; */
 }
 
 #contact-cover-single{
-    background: url(../images/AdobeStock_89099628_WM.jpeg) no-repeat fixed;
+    background: url(../images/keyboard-contact-us-cube.jpeg) no-repeat fixed;
     background-size: cover;
     color: white;
 }
@@ -462,7 +465,7 @@ background-size:16px 16px; */
 
 /* === ABOUT US STYLES === */
 #about-us-cover-main{
-    background: url(../images/AdobeStock_118529315_WM.jpeg) no-repeat  100% 100% fixed;
+    background: url(../images/blurred-office-working-on-computers.jpeg) no-repeat  100% 100% fixed;
     background-size: cover;
     
     color: white;
@@ -525,7 +528,7 @@ background-size:16px 16px; */
     }
         /* FOUND PRE MEDIA QUERY */
             #cover-main{
-                 background: url('../images/AdobeStock_85480562_WM.jpeg') no-repeat fixed;
+                 background: url('../images/web-dev-cell-laptop-mockup.jpeg') no-repeat fixed;
                 background-size: cover;
                 color: white;
             }
@@ -600,6 +603,11 @@ background-size:16px 16px; */
 
 }
     
+    #nav-header .nav-item{
+  background-color: rgba(219, 184, 0,.5);
+
+}
+    
     /* SINGLE PORTFOLIO HEADER */
         #cover-header-portfolio h1{
         font-size: 3.75rem;
@@ -644,7 +652,7 @@ background-size:16px 16px; */
    /*********************************/ 
     
 #portfolio-cover-main{
-    background: url(../images/AdobeStock_90626450_WM.jpeg) no-repeat  center -150px fixed;
+    background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -150px fixed;
     background-size: cover;
     height: 300px;
     color: white;
