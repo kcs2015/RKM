@@ -365,7 +365,8 @@ background-size:16px 16px; */
 }
 
 #portfolio-cover-main , #portfolio-single-cover{
-    background: url(../images/interior-photo-gallery.jpeg) no-repeat  100% center fixed;
+    /*background: url(../images/interior-photo-gallery.jpeg) no-repeat  100% center fixed;*/
+      background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -150px fixed;
      background-size: cover;
     height: 300px;
     color: white;
