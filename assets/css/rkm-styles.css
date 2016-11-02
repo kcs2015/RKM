@@ -365,8 +365,8 @@ background-size:16px 16px; */
 }
 
 #portfolio-cover-main , #portfolio-single-cover{
-    /*background: url(../images/interior-photo-gallery.jpeg) no-repeat  100% center fixed;*/
-      background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -150px fixed;
+    background: url(../images/interior-photo-gallery.jpeg) no-repeat  right -50px fixed;
+     
      background-size: cover;
     height: 300px;
     color: white;
@@ -519,6 +519,10 @@ background-size:16px 16px; */
     text-align:center;
 }
 
+/* CUSTOM BOOTSRAP CSS */
+.portfolio-carousel .carousel-control .icon-next, .portfolio-carousel .carousel-control .icon-prev  {
+    font-size: 4em;
+}
 
 /* REMOVED FROM EXTRA SMALL  */
         #cover-main{
@@ -527,14 +531,12 @@ background-size:16px 16px; */
         height: 600px;
       
     }
-        /* FOUND PRE MEDIA QUERY */
             #cover-main{
                  background: url('../images/web-dev-cell-laptop-mockup.jpeg') no-repeat fixed;
                 background-size: cover;
                 color: white;
             }
   
-/* FIXED - ADDED ADDITIONAL QUERY ** */
       #cover-header-main .display-2{
             font-size: 3.5em;
         }
@@ -595,19 +597,41 @@ background-size:16px 16px; */
 
 /* === MEDIA QUERIES === */
 
+/* Small 1 . Above 320 px */
+@media only screen and (min-width: 320px) {
+    .navbar-brand span {
+        font-size: 1.65rem;
+    }
+    #portfolio-cover-main , #portfolio-single-cover{
+    
+     background-position: right -200px;
+   
+    }
+    
+}
+
+/* Small 1 . Above 360 px */
+@media only screen and (min-width: 360px) {
+    #portfolio-cover-main , #portfolio-single-cover{
+    
+     background-position: right -120px;
+   
+    }
+}
+
 
 /* Small. Above 34em (544px) */
 @media screen and (min-width: 34em) {
     
-    #navbar-header-site{
-    background-color: rgba(0,0,0,.25);
+        #navbar-header-site{
+        background-color: rgba(0,0,0,.25);
 
-}
-    
-    #nav-header .nav-item{
-  background-color: rgba(219, 184, 0,.5);
+    }
 
-}
+        #nav-header .nav-item{
+      background-color: rgba(219, 184, 0,.5);
+
+    }
     
     /* SINGLE PORTFOLIO HEADER */
         #cover-header-portfolio h1{
@@ -652,17 +676,22 @@ background-size:16px 16px; */
     
    /*********************************/ 
     
-#portfolio-cover-main{
-    background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -150px fixed;
-    background-size: cover;
-    height: 300px;
-    color: white;
-}
+    #portfolio-cover-main, #portfolio-single-cover {
+        /*background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -150px fixed;*/
+         background-position: left -255px;
+       
+    }
 
 
 }
+
 /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
+    #portfolio-cover-main, #portfolio-single-cover  {
+        /*background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -255px fixed;*/
+        background-position: right -550px;
+    }
+    
         #technology-main{
    
     background-size: cover;
@@ -685,23 +714,25 @@ background-size:16px 16px; */
     
      #contact-cover-single{
        background-position:  90% -325px;
-}
+    }
+     #portfolio-cover-main, #portfolio-single-cover  {
+        /*background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -255px fixed;*/
+        background-position: center -275px;
+    }
+    
     .portfolio-thumbnails-col{
     float:right !important;
-}
+    }
 
 }
 
 /* Extra large. Above 75em (1200px) */
 @media screen and (min-width: 75em) {
-
-    
      #contact-cover-single{
-       background-position:  90% -475px;
-     
-    
-}
-    .portfolio-thumbnails-col{
-    float:right !important;
-}
+           background-position:  90% -475px;
+
+    }
+        .portfolio-thumbnails-col{
+        float:right !important;
+    }
 }
