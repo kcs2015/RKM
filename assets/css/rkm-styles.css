@@ -1,7 +1,7 @@
 /* RKM Styles */
 
 /* == FONTS === */
-* latin-ext */
+/* latin-ext */
 @font-face {
   font-family: 'Courgette';
   font-style: normal;
@@ -598,7 +598,7 @@ background-size:16px 16px; */
 /* === MEDIA QUERIES === */
 
 /* Small 1 . Above 320 px */
-@media only screen and (min-width: 320px) {
+@media screen and (min-width: 320px) {
     .navbar-brand span {
         font-size: 1.65rem;
     }
@@ -611,10 +611,10 @@ background-size:16px 16px; */
 }
 
 /* Small 1 . Above 360 px */
-@media only screen and (min-width: 360px) {
+@media screen and (min-width: 360px) {
     #portfolio-cover-main , #portfolio-single-cover{
     
-     background-position: right -120px;
+     background-position: right center;
    
     }
 }
@@ -678,8 +678,8 @@ background-size:16px 16px; */
     
     #portfolio-cover-main, #portfolio-single-cover {
         /*background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -150px fixed;*/
-         background-position: left -255px;
-       
+         background-position: left -235px;
+       -webkit-background-size: cover;
     }
 
 
