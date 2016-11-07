@@ -609,20 +609,63 @@ background-size:16px 16px; */
    
     }
     
+    /* ABOUT PAGE */
+    #cover-header-about, #cover-header-contact{
+        margin-top:21px;
+        
+    }
+    /* PORTFOLIO PAGE */
+    #portfolio-cover-main .section-content{
+        padding-top:58px;
+    }
+    
 }
 
 /* Small 1 . Above 360 px */
 @media screen and (min-width: 360px) {
+       
+    .page-cover .section-content{
+        padding-top: 80px;
+    }
+    
+      /* ABOUT & CONTACT PAGE */
+    #about-us-cover-main .section-content, #contact-cover-single-section-content.section-content{
+        padding-top:90px;
+    }
+    
+      /* ABOUT PAGE */
+    #cover-header-about h1{
+        font-size:3.8rem;
+        
+    }
+    
+     /* CONTACT PAGE */
+    #cover-header-about{
+        margin-top:0%
+        
+    }
+    
+    #cover-header-contact h1{
+        font-size:3.2rem;
+        
+    }
+    
+    /* PORTFOLIO PAGE */
+    #portfolio-cover-main .section-content{
+        padding-top:80px;
+    }
+    #cover-header-portfolio h1{
+        font-size:2.5rem;
+    }
+    /* END PORTFOLIO PAGE */
+    
     #portfolio-cover-main , #portfolio-single-cover{
     
      background-position: right center;
    
     }
     
-    
-    .page-cover .section-content{
-        padding-top: 80px;
-    }
+ 
 }
 
 
@@ -638,14 +681,44 @@ background-size:16px 16px; */
       background-color: rgba(219, 184, 0,.5);
 
     }
+        .navbar-brand span {
+        text-align: center;
+    }
     
-    /* SINGLE PORTFOLIO HEADER */
-        #cover-header-portfolio h1{
-        font-size: 3.75rem;
+            
+    #cover-sub-header h2{
+        font-size: 3.5em;
     }
-        #cover-sub-header-portfolio h2{
-        font-size: 2rem;
+        
+
+    /* ABOUT PAGE */
+    #cover-header-about h1 {
+       font-size: 5.5rem;
     }
+    
+    /* CONTACT PAGE */
+     #contact-cover-single-section-content.section-content{
+        padding-top:75px;
+    }
+    #cover-header-contact h1 {
+       font-size: 4.5rem;
+    }
+
+    
+    /* PORTFOLIO MAIN & PORTFOLIO SINGLE PAGE */
+    #portfolio-cover-main .section-content, #portfolio-single-cover div.section-content{
+        padding-top:78px;
+    }
+    #cover-header-portfolio h1{
+        font-size:2.5rem;
+    }
+     #cover-sub-header-portfolio h2{
+        font-size: 1.5rem;
+    }
+    /* END PORTFOLIO PAGE */
+    
+    
+
         .navbar-nav {
        float: right;
     }
@@ -664,21 +737,8 @@ background-size:16px 16px; */
     #cover-header-main .display-2{
         font-size: 5.5em;
     }
-        
-    #cover-sub-header h2{
-        font-size: 3.5em;
-    }
-        
-      #cover-header-contact h1 {
-       font-size: 5.5rem;
-    }
-    #cover-header-about h1 {
-       font-size: 5.5rem;
-    }
+
     
-      .navbar-brand {
-           float: left;
-        }
     
    /*********************************/ 
     
@@ -691,7 +751,27 @@ background-size:16px 16px; */
 
 }
 
-/* Medium. Above 48em (768px) */
+/* Medium. Above 36em (575) */
+@media screen and (min-width: 576px) {
+    .navbar-brand{
+        float: left;
+    }
+    .navbar-brand span{
+        font-size: 1.39rem;
+    }
+    
+}
+
+/* Medium. Above 38em (608px) */
+@media screen and (min-width: 38em) {
+        .navbar-brand span{
+        font-size: 1.65rem;
+    }
+    
+    
+}
+    
+    /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
     
     .page-cover .section-content{
@@ -730,16 +810,22 @@ background-size:16px 16px; */
     margin-left: .5rem;
     margin-right: .5rem;
     }
-    
+    /* PAGE COVER RESPONSIVE STYLES */
     .page-cover .section-content{
-        padding-top: 80px;
+        padding-top: 115px;
     }
     
     #cover-sub-header{
-        font-size:.75rem;
+        font-size:1rem;
     }
     #cover-header-main h1.display-2{
-        font-size:5rem;
+        font-size:5.2rem;
+    }
+    /* END PAGE COVER RESPONSIVE STYLES */
+    
+    /* TECHNOLOGY MAIN RESPONSIVE STYLES */
+    .tech-logo-content .logo-img {
+        width:110px;
     }
     
      #contact-cover-single{
