@@ -840,6 +840,20 @@ background-size:16px 16px; */
      #contact-cover-single{
        background-position:  90% -325px;
     }
+    
+    /* PORTFOLIO MAIN & PORTFOLIO SINGLE PAGE */
+    #portfolio-cover-main .section-content, #portfolio-single-cover div.section-content{
+        padding-top:70px;
+    }
+    #cover-header-portfolio h1{
+        font-size: 4.5rem;
+    }
+     #cover-sub-header-portfolio h2{
+        font-size: 1.9rem;
+    }
+    /* END PORTFOLIO PAGE */
+    
+    
      #portfolio-cover-main, #portfolio-single-cover  {
         /*background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -255px fixed;*/
         background-position: center -275px;
