@@ -527,18 +527,14 @@ background-size:16px 16px; */
 
 /* REMOVED FROM EXTRA SMALL  */
         #cover-main{
-       
+        background-size: 300%;
+        background-position: center;
+        height: 600px;
       
     }
             #cover-main{
-                 background: url('../images/web-dev-cell-laptop-mockup.jpeg') ;
-                background-repeat: no-repeat;
-                -webkit-background-attachment: fixed;
-                background-attachment: fixed;
-                -webkit-background-size:cover;
-                  background-size: cover;
-                background-position: center center;
-
+                 background: url('../images/web-dev-cell-laptop-mockup.jpeg') no-repeat fixed;
+                background-size: cover;
                 color: white;
             }
   
