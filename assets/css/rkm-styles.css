@@ -125,10 +125,7 @@ font-family: 'Yellowtail', cursive;*/
     font-style: italic;
 }
 
-
-
-
-.cover-header-wrapper{
+#cover-header-wrapper{
     position:relative;
     min-height:100%;
     
@@ -146,12 +143,16 @@ font-family: 'Yellowtail', cursive;*/
     
 }
 
+.page-cover .section-content{
+    padding-top: 42px;
+}
+
 
 .cover-header{
     width:100%;
-    position:absolute;
+    /*position:absolute;
     top:55%;
-    transform: translateY(-50%);
+    transform: translateY(-50%);*/
 }
 
 #cover-header-main {
@@ -617,6 +618,11 @@ background-size:16px 16px; */
      background-position: right center;
    
     }
+    
+    
+    .page-cover .section-content{
+        padding-top: 80px;
+    }
 }
 
 
@@ -687,6 +693,18 @@ background-size:16px 16px; */
 
 /* Medium. Above 48em (768px) */
 @media screen and (min-width: 48em) {
+    
+    .page-cover .section-content{
+        padding-top: 80px;
+    }
+    
+    #cover-sub-header{
+        font-size:.75rem;
+    }
+    #cover-header-main h1.display-2{
+        font-size:5rem;
+    }
+    
     #portfolio-cover-main, #portfolio-single-cover  {
         /*background: url(../images/interior-photo-gallery.jpeg) no-repeat  center -255px fixed;*/
         background-position: right -550px;
@@ -702,6 +720,7 @@ background-size:16px 16px; */
     .portfolio-thumbnails-col{
     float:right !important;
 }
+    
 
 }
 
@@ -710,6 +729,17 @@ background-size:16px 16px; */
         .logo-img{
     margin-left: .5rem;
     margin-right: .5rem;
+    }
+    
+    .page-cover .section-content{
+        padding-top: 80px;
+    }
+    
+    #cover-sub-header{
+        font-size:.75rem;
+    }
+    #cover-header-main h1.display-2{
+        font-size:5rem;
     }
     
      #contact-cover-single{
