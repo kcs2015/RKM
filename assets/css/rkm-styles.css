@@ -201,7 +201,10 @@ font-family: 'Yellowtail', cursive;*/
 #technology-main{
    
     background: url(../images/laptop-colors-explode.jpeg) 100% -100px no-repeat;
-    background-size: cover;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     -ms-background-size: cover;
     color: white;
     
 }
@@ -538,6 +541,7 @@ background-size:16px 16px; */
                 -webkit-background-size:cover;
                   background-size: cover;
                 background-position: center center;
+                
 
                 color: white;
             }
